@@ -17,6 +17,13 @@
 		A2C953472A3CC0F0002BD7EE /* DroidconKEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953462A3CC0F0002BD7EE /* DroidconKEUITests.swift */; };
 		A2C953492A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953482A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift */; };
 		A2C953562A3CC2FA002BD7EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C953552A3CC2FA002BD7EE /* README.md */; };
+		A2C953592A3CC8C9002BD7EE /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953582A3CC8C9002BD7EE /* SplashView.swift */; };
+		A2C9535B2A3CD60C002BD7EE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535A2A3CD60C002BD7EE /* AppView.swift */; };
+		A2C9535C2A3CD60C002BD7EE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535A2A3CD60C002BD7EE /* AppView.swift */; };
+		A2C9535D2A3CD60C002BD7EE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535A2A3CD60C002BD7EE /* AppView.swift */; };
+		A2C9535F2A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
+		A2C953602A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
+		A2C953612A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,9 @@
 		A2C953462A3CC0F0002BD7EE /* DroidconKEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidconKEUITests.swift; sourceTree = "<group>"; };
 		A2C953482A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidconKEUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A2C953552A3CC2FA002BD7EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A2C953582A3CC8C9002BD7EE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A2C9535A2A3CD60C002BD7EE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +111,14 @@
 		A2C953252A3CC0EF002BD7EE /* DroidconKE */ = {
 			isa = PBXGroup;
 			children = (
+				A2C953572A3CC8B9002BD7EE /* Splash */,
 				A2C953262A3CC0EF002BD7EE /* DroidconKEApp.swift */,
 				A2C953282A3CC0EF002BD7EE /* ContentView.swift */,
 				A2C9532A2A3CC0F0002BD7EE /* Assets.xcassets */,
 				A2C9532F2A3CC0F0002BD7EE /* Persistence.swift */,
 				A2C953312A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld */,
 				A2C9532C2A3CC0F0002BD7EE /* Preview Content */,
+				A2C9535A2A3CD60C002BD7EE /* AppView.swift */,
 			);
 			path = DroidconKE;
 			sourceTree = "<group>";
@@ -123,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				A2C9533C2A3CC0F0002BD7EE /* DroidconKETests.swift */,
+				A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */,
 			);
 			path = DroidconKETests;
 			sourceTree = "<group>";
@@ -134,6 +147,14 @@
 				A2C953482A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift */,
 			);
 			path = DroidconKEUITests;
+			sourceTree = "<group>";
+		};
+		A2C953572A3CC8B9002BD7EE /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				A2C953582A3CC8C9002BD7EE /* SplashView.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C953302A3CC0F0002BD7EE /* Persistence.swift in Sources */,
+				A2C9535F2A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
 				A2C953332A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld in Sources */,
+				A2C9535B2A3CD60C002BD7EE /* AppView.swift in Sources */,
+				A2C953592A3CC8C9002BD7EE /* SplashView.swift in Sources */,
 				A2C953292A3CC0EF002BD7EE /* ContentView.swift in Sources */,
 				A2C953272A3CC0EF002BD7EE /* DroidconKEApp.swift in Sources */,
 			);
@@ -278,7 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C9535C2A3CD60C002BD7EE /* AppView.swift in Sources */,
 				A2C9533D2A3CC0F0002BD7EE /* DroidconKETests.swift in Sources */,
+				A2C953602A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C953492A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift in Sources */,
+				A2C953612A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
 				A2C953472A3CC0F0002BD7EE /* DroidconKEUITests.swift in Sources */,
+				A2C9535D2A3CD60C002BD7EE /* AppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
