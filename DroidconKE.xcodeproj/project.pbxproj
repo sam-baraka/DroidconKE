@@ -16,6 +16,7 @@
 		A2C9533D2A3CC0F0002BD7EE /* DroidconKETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9533C2A3CC0F0002BD7EE /* DroidconKETests.swift */; };
 		A2C953472A3CC0F0002BD7EE /* DroidconKEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953462A3CC0F0002BD7EE /* DroidconKEUITests.swift */; };
 		A2C953492A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953482A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift */; };
+		A2C953562A3CC2FA002BD7EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C953552A3CC2FA002BD7EE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		A2C953422A3CC0F0002BD7EE /* DroidconKEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroidconKEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C953462A3CC0F0002BD7EE /* DroidconKEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidconKEUITests.swift; sourceTree = "<group>"; };
 		A2C953482A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidconKEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2C953552A3CC2FA002BD7EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		A2C9531A2A3CC0EF002BD7EE = {
 			isa = PBXGroup;
 			children = (
+				A2C953552A3CC2FA002BD7EE /* README.md */,
 				A2C953252A3CC0EF002BD7EE /* DroidconKE */,
 				A2C9533B2A3CC0F0002BD7EE /* DroidconKETests */,
 				A2C953452A3CC0F0002BD7EE /* DroidconKEUITests */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C953562A3CC2FA002BD7EE /* README.md in Resources */,
 				A2C9532E2A3CC0F0002BD7EE /* Preview Assets.xcassets in Resources */,
 				A2C9532B2A3CC0F0002BD7EE /* Assets.xcassets in Resources */,
 			);
