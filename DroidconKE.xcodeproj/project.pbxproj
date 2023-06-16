@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2C953272A3CC0EF002BD7EE /* DroidconKEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953262A3CC0EF002BD7EE /* DroidconKEApp.swift */; };
+		A2C953292A3CC0EF002BD7EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953282A3CC0EF002BD7EE /* ContentView.swift */; };
+		A2C9532B2A3CC0F0002BD7EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C9532A2A3CC0F0002BD7EE /* Assets.xcassets */; };
+		A2C9532E2A3CC0F0002BD7EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C9532D2A3CC0F0002BD7EE /* Preview Assets.xcassets */; };
+		A2C953302A3CC0F0002BD7EE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9532F2A3CC0F0002BD7EE /* Persistence.swift */; };
+		A2C953332A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2C953312A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld */; };
+		A2C9533D2A3CC0F0002BD7EE /* DroidconKETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9533C2A3CC0F0002BD7EE /* DroidconKETests.swift */; };
+		A2C953472A3CC0F0002BD7EE /* DroidconKEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953462A3CC0F0002BD7EE /* DroidconKEUITests.swift */; };
+		A2C953492A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953482A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2C953392A3CC0F0002BD7EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C9531B2A3CC0EF002BD7EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C953222A3CC0EF002BD7EE;
+			remoteInfo = DroidconKE;
+		};
+		A2C953432A3CC0F0002BD7EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C9531B2A3CC0EF002BD7EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C953222A3CC0EF002BD7EE;
+			remoteInfo = DroidconKE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2C953232A3CC0EF002BD7EE /* DroidconKE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroidconKE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C953262A3CC0EF002BD7EE /* DroidconKEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidconKEApp.swift; sourceTree = "<group>"; };
+		A2C953282A3CC0EF002BD7EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2C9532A2A3CC0F0002BD7EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2C9532D2A3CC0F0002BD7EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2C9532F2A3CC0F0002BD7EE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A2C953322A3CC0F0002BD7EE /* DroidconKE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DroidconKE.xcdatamodel; sourceTree = "<group>"; };
+		A2C953382A3CC0F0002BD7EE /* DroidconKETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroidconKETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C9533C2A3CC0F0002BD7EE /* DroidconKETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidconKETests.swift; sourceTree = "<group>"; };
+		A2C953422A3CC0F0002BD7EE /* DroidconKEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroidconKEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C953462A3CC0F0002BD7EE /* DroidconKEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidconKEUITests.swift; sourceTree = "<group>"; };
+		A2C953482A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidconKEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C953202A3CC0EF002BD7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C953352A3CC0F0002BD7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C9533F2A3CC0F0002BD7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2C9531A2A3CC0EF002BD7EE = {
+			isa = PBXGroup;
+			children = (
+				A2C953252A3CC0EF002BD7EE /* DroidconKE */,
+				A2C9533B2A3CC0F0002BD7EE /* DroidconKETests */,
+				A2C953452A3CC0F0002BD7EE /* DroidconKEUITests */,
+				A2C953242A3CC0EF002BD7EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C953242A3CC0EF002BD7EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C953232A3CC0EF002BD7EE /* DroidconKE.app */,
+				A2C953382A3CC0F0002BD7EE /* DroidconKETests.xctest */,
+				A2C953422A3CC0F0002BD7EE /* DroidconKEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C953252A3CC0EF002BD7EE /* DroidconKE */ = {
+			isa = PBXGroup;
+			children = (
+				A2C953262A3CC0EF002BD7EE /* DroidconKEApp.swift */,
+				A2C953282A3CC0EF002BD7EE /* ContentView.swift */,
+				A2C9532A2A3CC0F0002BD7EE /* Assets.xcassets */,
+				A2C9532F2A3CC0F0002BD7EE /* Persistence.swift */,
+				A2C953312A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld */,
+				A2C9532C2A3CC0F0002BD7EE /* Preview Content */,
+			);
+			path = DroidconKE;
+			sourceTree = "<group>";
+		};
+		A2C9532C2A3CC0F0002BD7EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2C9532D2A3CC0F0002BD7EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2C9533B2A3CC0F0002BD7EE /* DroidconKETests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C9533C2A3CC0F0002BD7EE /* DroidconKETests.swift */,
+			);
+			path = DroidconKETests;
+			sourceTree = "<group>";
+		};
+		A2C953452A3CC0F0002BD7EE /* DroidconKEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C953462A3CC0F0002BD7EE /* DroidconKEUITests.swift */,
+				A2C953482A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift */,
+			);
+			path = DroidconKEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2C953222A3CC0EF002BD7EE /* DroidconKE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C9534C2A3CC0F0002BD7EE /* Build configuration list for PBXNativeTarget "DroidconKE" */;
+			buildPhases = (
+				A2C9531F2A3CC0EF002BD7EE /* Sources */,
+				A2C953202A3CC0EF002BD7EE /* Frameworks */,
+				A2C953212A3CC0EF002BD7EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroidconKE;
+			productName = DroidconKE;
+			productReference = A2C953232A3CC0EF002BD7EE /* DroidconKE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2C953372A3CC0F0002BD7EE /* DroidconKETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C9534F2A3CC0F0002BD7EE /* Build configuration list for PBXNativeTarget "DroidconKETests" */;
+			buildPhases = (
+				A2C953342A3CC0F0002BD7EE /* Sources */,
+				A2C953352A3CC0F0002BD7EE /* Frameworks */,
+				A2C953362A3CC0F0002BD7EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C9533A2A3CC0F0002BD7EE /* PBXTargetDependency */,
+			);
+			name = DroidconKETests;
+			productName = DroidconKETests;
+			productReference = A2C953382A3CC0F0002BD7EE /* DroidconKETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2C953412A3CC0F0002BD7EE /* DroidconKEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C953522A3CC0F0002BD7EE /* Build configuration list for PBXNativeTarget "DroidconKEUITests" */;
+			buildPhases = (
+				A2C9533E2A3CC0F0002BD7EE /* Sources */,
+				A2C9533F2A3CC0F0002BD7EE /* Frameworks */,
+				A2C953402A3CC0F0002BD7EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C953442A3CC0F0002BD7EE /* PBXTargetDependency */,
+			);
+			name = DroidconKEUITests;
+			productName = DroidconKEUITests;
+			productReference = A2C953422A3CC0F0002BD7EE /* DroidconKEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C9531B2A3CC0EF002BD7EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A2C953222A3CC0EF002BD7EE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A2C953372A3CC0F0002BD7EE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A2C953222A3CC0EF002BD7EE;
+					};
+					A2C953412A3CC0F0002BD7EE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A2C953222A3CC0EF002BD7EE;
+					};
+				};
+			};
+			buildConfigurationList = A2C9531E2A3CC0EF002BD7EE /* Build configuration list for PBXProject "DroidconKE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2C9531A2A3CC0EF002BD7EE;
+			productRefGroup = A2C953242A3CC0EF002BD7EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C953222A3CC0EF002BD7EE /* DroidconKE */,
+				A2C953372A3CC0F0002BD7EE /* DroidconKETests */,
+				A2C953412A3CC0F0002BD7EE /* DroidconKEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C953212A3CC0EF002BD7EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C9532E2A3CC0F0002BD7EE /* Preview Assets.xcassets in Resources */,
+				A2C9532B2A3CC0F0002BD7EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C953362A3CC0F0002BD7EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C953402A3CC0F0002BD7EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2C9531F2A3CC0EF002BD7EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C953302A3CC0F0002BD7EE /* Persistence.swift in Sources */,
+				A2C953332A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld in Sources */,
+				A2C953292A3CC0EF002BD7EE /* ContentView.swift in Sources */,
+				A2C953272A3CC0EF002BD7EE /* DroidconKEApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C953342A3CC0F0002BD7EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C9533D2A3CC0F0002BD7EE /* DroidconKETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C9533E2A3CC0F0002BD7EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C953492A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift in Sources */,
+				A2C953472A3CC0F0002BD7EE /* DroidconKEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2C9533A2A3CC0F0002BD7EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C953222A3CC0EF002BD7EE /* DroidconKE */;
+			targetProxy = A2C953392A3CC0F0002BD7EE /* PBXContainerItemProxy */;
+		};
+		A2C953442A3CC0F0002BD7EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C953222A3CC0EF002BD7EE /* DroidconKE */;
+			targetProxy = A2C953432A3CC0F0002BD7EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2C9534A2A3CC0F0002BD7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2C9534B2A3CC0F0002BD7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2C9534D2A3CC0F0002BD7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DroidconKE/Preview Content\"";
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.DroidconKE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2C9534E2A3CC0F0002BD7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DroidconKE/Preview Content\"";
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.DroidconKE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2C953502A3CC0F0002BD7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.DroidconKETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroidconKE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DroidconKE";
+			};
+			name = Debug;
+		};
+		A2C953512A3CC0F0002BD7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.DroidconKETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroidconKE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DroidconKE";
+			};
+			name = Release;
+		};
+		A2C953532A3CC0F0002BD7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.DroidconKEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DroidconKE;
+			};
+			name = Debug;
+		};
+		A2C953542A3CC0F0002BD7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.DroidconKEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DroidconKE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2C9531E2A3CC0EF002BD7EE /* Build configuration list for PBXProject "DroidconKE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C9534A2A3CC0F0002BD7EE /* Debug */,
+				A2C9534B2A3CC0F0002BD7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C9534C2A3CC0F0002BD7EE /* Build configuration list for PBXNativeTarget "DroidconKE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C9534D2A3CC0F0002BD7EE /* Debug */,
+				A2C9534E2A3CC0F0002BD7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C9534F2A3CC0F0002BD7EE /* Build configuration list for PBXNativeTarget "DroidconKETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C953502A3CC0F0002BD7EE /* Debug */,
+				A2C953512A3CC0F0002BD7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C953522A3CC0F0002BD7EE /* Build configuration list for PBXNativeTarget "DroidconKEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C953532A3CC0F0002BD7EE /* Debug */,
+				A2C953542A3CC0F0002BD7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2C953312A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2C953322A3CC0F0002BD7EE /* DroidconKE.xcdatamodel */,
+			);
+			currentVersion = A2C953322A3CC0F0002BD7EE /* DroidconKE.xcdatamodel */;
+			path = DroidconKE.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2C9531B2A3CC0EF002BD7EE /* Project object */;
+}
