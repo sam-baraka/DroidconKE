@@ -24,6 +24,12 @@
 		A2C9535F2A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
 		A2C953602A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
 		A2C953612A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
+		A2F3DF732A40602C003F6785 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3DF722A40602C003F6785 /* HomeView.swift */; };
+		A2F3DF742A40602C003F6785 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3DF722A40602C003F6785 /* HomeView.swift */; };
+		A2F3DF752A40602C003F6785 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3DF722A40602C003F6785 /* HomeView.swift */; };
+		A2F3DF782A406568003F6785 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3DF772A406568003F6785 /* AppColors.swift */; };
+		A2F3DF792A406568003F6785 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3DF772A406568003F6785 /* AppColors.swift */; };
+		A2F3DF7A2A406568003F6785 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3DF772A406568003F6785 /* AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,8 @@
 		A2C953582A3CC8C9002BD7EE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		A2C9535A2A3CD60C002BD7EE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewTest.swift; sourceTree = "<group>"; };
+		A2F3DF722A40602C003F6785 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A2F3DF772A406568003F6785 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,8 @@
 		A2C953252A3CC0EF002BD7EE /* DroidconKE */ = {
 			isa = PBXGroup;
 			children = (
+				A2F3DF762A406555003F6785 /* Palette */,
+				A2F3DF712A406017003F6785 /* Home */,
 				A2C953572A3CC8B9002BD7EE /* Splash */,
 				A2C953262A3CC0EF002BD7EE /* DroidconKEApp.swift */,
 				A2C953282A3CC0EF002BD7EE /* ContentView.swift */,
@@ -155,6 +165,22 @@
 				A2C953582A3CC8C9002BD7EE /* SplashView.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		A2F3DF712A406017003F6785 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A2F3DF722A40602C003F6785 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A2F3DF762A406555003F6785 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				A2F3DF772A406568003F6785 /* AppColors.swift */,
+			);
+			path = Palette;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,11 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F3DF782A406568003F6785 /* AppColors.swift in Sources */,
 				A2C953302A3CC0F0002BD7EE /* Persistence.swift in Sources */,
 				A2C9535F2A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
 				A2C953332A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld in Sources */,
 				A2C9535B2A3CD60C002BD7EE /* AppView.swift in Sources */,
 				A2C953592A3CC8C9002BD7EE /* SplashView.swift in Sources */,
+				A2F3DF732A40602C003F6785 /* HomeView.swift in Sources */,
 				A2C953292A3CC0EF002BD7EE /* ContentView.swift in Sources */,
 				A2C953272A3CC0EF002BD7EE /* DroidconKEApp.swift in Sources */,
 			);
@@ -303,7 +331,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C9535C2A3CD60C002BD7EE /* AppView.swift in Sources */,
+				A2F3DF742A40602C003F6785 /* HomeView.swift in Sources */,
 				A2C9533D2A3CC0F0002BD7EE /* DroidconKETests.swift in Sources */,
+				A2F3DF792A406568003F6785 /* AppColors.swift in Sources */,
 				A2C953602A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +345,8 @@
 				A2C953492A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift in Sources */,
 				A2C953612A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
 				A2C953472A3CC0F0002BD7EE /* DroidconKEUITests.swift in Sources */,
+				A2F3DF7A2A406568003F6785 /* AppColors.swift in Sources */,
+				A2F3DF752A40602C003F6785 /* HomeView.swift in Sources */,
 				A2C9535D2A3CD60C002BD7EE /* AppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
