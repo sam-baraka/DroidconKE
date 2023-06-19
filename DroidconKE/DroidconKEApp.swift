@@ -9,7 +9,6 @@ import SwiftUI
 
 @main
 struct DroidconKEApp: App {
-    let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
@@ -19,3 +18,4 @@ struct DroidconKEApp: App {
         }
     }
 }
+
