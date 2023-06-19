@@ -24,6 +24,9 @@
 		A2C9535F2A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
 		A2C953602A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
 		A2C953612A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
+		A2EF345F2A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF345E2A40BBAE009FD23A /* CallForSpeakersView.swift */; };
+		A2EF34602A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF345E2A40BBAE009FD23A /* CallForSpeakersView.swift */; };
+		A2EF34612A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF345E2A40BBAE009FD23A /* CallForSpeakersView.swift */; };
 		A2F3DF732A40602C003F6785 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3DF722A40602C003F6785 /* HomeView.swift */; };
 		A2F3DF742A40602C003F6785 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3DF722A40602C003F6785 /* HomeView.swift */; };
 		A2F3DF752A40602C003F6785 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3DF722A40602C003F6785 /* HomeView.swift */; };
@@ -66,6 +69,7 @@
 		A2C953582A3CC8C9002BD7EE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		A2C9535A2A3CD60C002BD7EE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewTest.swift; sourceTree = "<group>"; };
+		A2EF345E2A40BBAE009FD23A /* CallForSpeakersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallForSpeakersView.swift; sourceTree = "<group>"; };
 		A2F3DF722A40602C003F6785 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A2F3DF772A406568003F6785 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,9 +171,18 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
+		A2EF345B2A40BB5F009FD23A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF345E2A40BBAE009FD23A /* CallForSpeakersView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A2F3DF712A406017003F6785 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A2EF345B2A40BB5F009FD23A /* Views */,
 				A2F3DF722A40602C003F6785 /* HomeView.swift */,
 			);
 			path = Home;
@@ -316,6 +329,7 @@
 			files = (
 				A2F3DF782A406568003F6785 /* AppColors.swift in Sources */,
 				A2C953302A3CC0F0002BD7EE /* Persistence.swift in Sources */,
+				A2EF345F2A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */,
 				A2C9535F2A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
 				A2C953332A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld in Sources */,
 				A2C9535B2A3CD60C002BD7EE /* AppView.swift in Sources */,
@@ -332,6 +346,7 @@
 			files = (
 				A2C9535C2A3CD60C002BD7EE /* AppView.swift in Sources */,
 				A2F3DF742A40602C003F6785 /* HomeView.swift in Sources */,
+				A2EF34602A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */,
 				A2C9533D2A3CC0F0002BD7EE /* DroidconKETests.swift in Sources */,
 				A2F3DF792A406568003F6785 /* AppColors.swift in Sources */,
 				A2C953602A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
@@ -348,6 +363,7 @@
 				A2F3DF7A2A406568003F6785 /* AppColors.swift in Sources */,
 				A2F3DF752A40602C003F6785 /* HomeView.swift in Sources */,
 				A2C9535D2A3CD60C002BD7EE /* AppView.swift in Sources */,
+				A2EF34612A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
