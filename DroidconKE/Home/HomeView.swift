@@ -20,8 +20,9 @@ struct HomeView: View {
                    Image("HomeBanner")
                        .resizable()
                        .aspectRatio(contentMode: .fit)
-                       .padding(8).frame(width: UIScreen.main.bounds.width)
-                   CallForSpeakersView().padding(8).frame(width: UIScreen.main.bounds.width)
+                       .padding(10).frame(width: UIScreen.main.bounds.width)
+                   CallForSpeakersView().padding().frame(width: UIScreen.main.bounds.width)
+                   SponsorsView().padding().frame(width: UIScreen.main.bounds.width)
                    
                    Spacer()
                }

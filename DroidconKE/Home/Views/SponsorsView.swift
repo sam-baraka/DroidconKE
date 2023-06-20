@@ -16,8 +16,8 @@ struct SponsorsView: View {
                 Image("AndelaLogo")
                 Image("HoverLogo")
                 Image("JetbrainsLogo")
-            }.frame(height: 23).padding(8)
-        }.frame(height: 200).background(Color(.black))
+            }.frame(maxWidth: .infinity).padding(8)
+        }.frame(height: 200).background(Color(.black)).cornerRadius(8)
     }
 }
 
