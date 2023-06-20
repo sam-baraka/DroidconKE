@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A25D45A22A41ABAC00321B63 /* SponsorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D45A12A41ABAC00321B63 /* SponsorsView.swift */; };
 		A2C953272A3CC0EF002BD7EE /* DroidconKEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953262A3CC0EF002BD7EE /* DroidconKEApp.swift */; };
 		A2C953292A3CC0EF002BD7EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953282A3CC0EF002BD7EE /* ContentView.swift */; };
 		A2C9532B2A3CC0F0002BD7EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C9532A2A3CC0F0002BD7EE /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A25D45A12A41ABAC00321B63 /* SponsorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorsView.swift; sourceTree = "<group>"; };
 		A2C953232A3CC0EF002BD7EE /* DroidconKE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroidconKE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C953262A3CC0EF002BD7EE /* DroidconKEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidconKEApp.swift; sourceTree = "<group>"; };
 		A2C953282A3CC0EF002BD7EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				A2EF345E2A40BBAE009FD23A /* CallForSpeakersView.swift */,
+				A25D45A12A41ABAC00321B63 /* SponsorsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				A2EF345F2A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */,
 				A2C9535F2A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
 				A2C953332A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld in Sources */,
+				A25D45A22A41ABAC00321B63 /* SponsorsView.swift in Sources */,
 				A2C9535B2A3CD60C002BD7EE /* AppView.swift in Sources */,
 				A2C953592A3CC8C9002BD7EE /* SplashView.swift in Sources */,
 				A2F3DF732A40602C003F6785 /* HomeView.swift in Sources */,
