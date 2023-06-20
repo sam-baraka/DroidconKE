@@ -23,9 +23,7 @@ struct AppView: View {
                     }
             } else {
                 // Add your main content view here
-                Text("Main Content")
-                    .font(.title)
-                    .foregroundColor(.black)
+                HomeView()
             }
         }}
 }
