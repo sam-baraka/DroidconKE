@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A25D45A22A41ABAC00321B63 /* SponsorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D45A12A41ABAC00321B63 /* SponsorsView.swift */; };
+		A2A0FB752A44D0CB004E6AE8 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A0FB742A44D0CB004E6AE8 /* BottomNavigationView.swift */; };
+		A2A0FB762A44D0CB004E6AE8 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A0FB742A44D0CB004E6AE8 /* BottomNavigationView.swift */; };
+		A2A0FB772A44D0CB004E6AE8 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A0FB742A44D0CB004E6AE8 /* BottomNavigationView.swift */; };
+		A2A0FB7A2A44D164004E6AE8 /* BottomNavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A0FB792A44D164004E6AE8 /* BottomNavigationViewModel.swift */; };
+		A2A0FB7B2A44D164004E6AE8 /* BottomNavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A0FB792A44D164004E6AE8 /* BottomNavigationViewModel.swift */; };
+		A2A0FB7C2A44D164004E6AE8 /* BottomNavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A0FB792A44D164004E6AE8 /* BottomNavigationViewModel.swift */; };
 		A2C953272A3CC0EF002BD7EE /* DroidconKEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953262A3CC0EF002BD7EE /* DroidconKEApp.swift */; };
 		A2C953292A3CC0EF002BD7EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C953282A3CC0EF002BD7EE /* ContentView.swift */; };
 		A2C9532B2A3CC0F0002BD7EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C9532A2A3CC0F0002BD7EE /* Assets.xcassets */; };
@@ -25,6 +31,18 @@
 		A2C9535F2A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
 		A2C953602A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
 		A2C953612A3CD704002BD7EE /* SplashViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */; };
+		A2D833372A4374080012F605 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D833362A4374080012F605 /* SessionView.swift */; };
+		A2D833382A4374080012F605 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D833362A4374080012F605 /* SessionView.swift */; };
+		A2D833392A4374080012F605 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D833362A4374080012F605 /* SessionView.swift */; };
+		A2D8333B2A43741A0012F605 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8333A2A43741A0012F605 /* AboutView.swift */; };
+		A2D8333C2A43741A0012F605 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8333A2A43741A0012F605 /* AboutView.swift */; };
+		A2D8333D2A43741A0012F605 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8333A2A43741A0012F605 /* AboutView.swift */; };
+		A2D8333F2A4374280012F605 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8333E2A4374280012F605 /* FeedView.swift */; };
+		A2D833402A4374280012F605 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8333E2A4374280012F605 /* FeedView.swift */; };
+		A2D833412A4374280012F605 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8333E2A4374280012F605 /* FeedView.swift */; };
+		A2EB20242A49F43E00E7CDD7 /* BottomNavigationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EB20232A49F43E00E7CDD7 /* BottomNavigationItemView.swift */; };
+		A2EB20252A49F43E00E7CDD7 /* BottomNavigationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EB20232A49F43E00E7CDD7 /* BottomNavigationItemView.swift */; };
+		A2EB20262A49F43E00E7CDD7 /* BottomNavigationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EB20232A49F43E00E7CDD7 /* BottomNavigationItemView.swift */; };
 		A2EF345F2A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF345E2A40BBAE009FD23A /* CallForSpeakersView.swift */; };
 		A2EF34602A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF345E2A40BBAE009FD23A /* CallForSpeakersView.swift */; };
 		A2EF34612A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF345E2A40BBAE009FD23A /* CallForSpeakersView.swift */; };
@@ -55,6 +73,8 @@
 
 /* Begin PBXFileReference section */
 		A25D45A12A41ABAC00321B63 /* SponsorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorsView.swift; sourceTree = "<group>"; };
+		A2A0FB742A44D0CB004E6AE8 /* BottomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationView.swift; sourceTree = "<group>"; };
+		A2A0FB792A44D164004E6AE8 /* BottomNavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationViewModel.swift; sourceTree = "<group>"; };
 		A2C953232A3CC0EF002BD7EE /* DroidconKE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroidconKE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C953262A3CC0EF002BD7EE /* DroidconKEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidconKEApp.swift; sourceTree = "<group>"; };
 		A2C953282A3CC0EF002BD7EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +91,10 @@
 		A2C953582A3CC8C9002BD7EE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		A2C9535A2A3CD60C002BD7EE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		A2C9535E2A3CD704002BD7EE /* SplashViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewTest.swift; sourceTree = "<group>"; };
+		A2D833362A4374080012F605 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		A2D8333A2A43741A0012F605 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		A2D8333E2A4374280012F605 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		A2EB20232A49F43E00E7CDD7 /* BottomNavigationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationItemView.swift; sourceTree = "<group>"; };
 		A2EF345E2A40BBAE009FD23A /* CallForSpeakersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallForSpeakersView.swift; sourceTree = "<group>"; };
 		A2F3DF722A40602C003F6785 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A2F3DF772A406568003F6785 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
@@ -101,6 +125,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2A0FB732A44D0A2004E6AE8 /* BottomNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				A2A0FB742A44D0CB004E6AE8 /* BottomNavigationView.swift */,
+				A2A0FB792A44D164004E6AE8 /* BottomNavigationViewModel.swift */,
+				A2EB20232A49F43E00E7CDD7 /* BottomNavigationItemView.swift */,
+			);
+			path = BottomNavigation;
+			sourceTree = "<group>";
+		};
 		A2C9531A2A3CC0EF002BD7EE = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +159,10 @@
 		A2C953252A3CC0EF002BD7EE /* DroidconKE */ = {
 			isa = PBXGroup;
 			children = (
+				A2A0FB732A44D0A2004E6AE8 /* BottomNavigation */,
+				A2D833352A4373F00012F605 /* About */,
+				A2D833342A4373E80012F605 /* Session */,
+				A2D833332A4373DF0012F605 /* Feed */,
 				A2F3DF762A406555003F6785 /* Palette */,
 				A2F3DF712A406017003F6785 /* Home */,
 				A2C953572A3CC8B9002BD7EE /* Splash */,
@@ -171,6 +209,30 @@
 				A2C953582A3CC8C9002BD7EE /* SplashView.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		A2D833332A4373DF0012F605 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A2D8333E2A4374280012F605 /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		A2D833342A4373E80012F605 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				A2D833362A4374080012F605 /* SessionView.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		A2D833352A4373F00012F605 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				A2D8333A2A43741A0012F605 /* AboutView.swift */,
+			);
+			path = About;
 			sourceTree = "<group>";
 		};
 		A2EF345B2A40BB5F009FD23A /* Views */ = {
@@ -330,15 +392,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D8333F2A4374280012F605 /* FeedView.swift in Sources */,
 				A2F3DF782A406568003F6785 /* AppColors.swift in Sources */,
+				A2A0FB752A44D0CB004E6AE8 /* BottomNavigationView.swift in Sources */,
 				A2C953302A3CC0F0002BD7EE /* Persistence.swift in Sources */,
 				A2EF345F2A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */,
 				A2C9535F2A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
+				A2D8333B2A43741A0012F605 /* AboutView.swift in Sources */,
 				A2C953332A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld in Sources */,
 				A25D45A22A41ABAC00321B63 /* SponsorsView.swift in Sources */,
 				A2C9535B2A3CD60C002BD7EE /* AppView.swift in Sources */,
+				A2D833372A4374080012F605 /* SessionView.swift in Sources */,
+				A2A0FB7A2A44D164004E6AE8 /* BottomNavigationViewModel.swift in Sources */,
 				A2C953592A3CC8C9002BD7EE /* SplashView.swift in Sources */,
 				A2F3DF732A40602C003F6785 /* HomeView.swift in Sources */,
+				A2EB20242A49F43E00E7CDD7 /* BottomNavigationItemView.swift in Sources */,
 				A2C953292A3CC0EF002BD7EE /* ContentView.swift in Sources */,
 				A2C953272A3CC0EF002BD7EE /* DroidconKEApp.swift in Sources */,
 			);
@@ -348,11 +416,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2EB20252A49F43E00E7CDD7 /* BottomNavigationItemView.swift in Sources */,
+				A2D8333C2A43741A0012F605 /* AboutView.swift in Sources */,
+				A2D833402A4374280012F605 /* FeedView.swift in Sources */,
+				A2D833382A4374080012F605 /* SessionView.swift in Sources */,
 				A2C9535C2A3CD60C002BD7EE /* AppView.swift in Sources */,
 				A2F3DF742A40602C003F6785 /* HomeView.swift in Sources */,
 				A2EF34602A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */,
 				A2C9533D2A3CC0F0002BD7EE /* DroidconKETests.swift in Sources */,
+				A2A0FB762A44D0CB004E6AE8 /* BottomNavigationView.swift in Sources */,
 				A2F3DF792A406568003F6785 /* AppColors.swift in Sources */,
+				A2A0FB7B2A44D164004E6AE8 /* BottomNavigationViewModel.swift in Sources */,
 				A2C953602A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,9 +435,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D833412A4374280012F605 /* FeedView.swift in Sources */,
 				A2C953492A3CC0F0002BD7EE /* DroidconKEUITestsLaunchTests.swift in Sources */,
 				A2C953612A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
+				A2A0FB7C2A44D164004E6AE8 /* BottomNavigationViewModel.swift in Sources */,
 				A2C953472A3CC0F0002BD7EE /* DroidconKEUITests.swift in Sources */,
+				A2D833392A4374080012F605 /* SessionView.swift in Sources */,
+				A2D8333D2A43741A0012F605 /* AboutView.swift in Sources */,
+				A2A0FB772A44D0CB004E6AE8 /* BottomNavigationView.swift in Sources */,
+				A2EB20262A49F43E00E7CDD7 /* BottomNavigationItemView.swift in Sources */,
 				A2F3DF7A2A406568003F6785 /* AppColors.swift in Sources */,
 				A2F3DF752A40602C003F6785 /* HomeView.swift in Sources */,
 				A2C9535D2A3CD60C002BD7EE /* AppView.swift in Sources */,
