@@ -9,8 +9,10 @@ import SwiftUI
 
 struct AppView: View {
     @State private var showSplash = true
+    @EnvironmentObject var viewModel: BottomNavigationViewModel
 
     var body: some View {
+        
         Group {
             if !showSplash {
                 SplashView()
@@ -24,11 +26,23 @@ struct AppView: View {
             } else {
                 // Add your main content view here
                 VStack {
-                    HomeView()
+                    switch viewModel.index{
+                    case 0:
+                        HomeView()
+                    case 1:
+                        FeedView()
+                    case 2:
+                        SessionView()
+                    case 3:
+                        AboutView()
+                    default:
+                        Text("No View Selected")
+                    }
+                    
                     Spacer()
                     BottomNavigationView().frame(height: 50)
                         .background(Color.white)
-                        .shadow(color: Color.black.opacity(0.2), radius: 2, x: 0, y: -2)
+//                        .shadow(color: Color.black.opacity(0.2), radius: 2, x: 0, y: -2)
                 }
             }
         }.padding(.bottom, 20).edgesIgnoringSafeArea(.bottom)
