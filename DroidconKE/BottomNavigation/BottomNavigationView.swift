@@ -20,7 +20,7 @@ struct BottomNavigationView: View {
     @EnvironmentObject var viewModel: BottomNavigationViewModel
     var body: some View {
         VStack {
-       
+            Divider()
             HStack{
                 Spacer()
                 Button(action: {
