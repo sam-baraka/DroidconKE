@@ -9,13 +9,13 @@ import SwiftUI
 
 @main
 struct DroidconKEApp: App {
-    let persistenceController = PersistenceController.shared
-
+    @StateObject private var bottomNavigationViewModel = BottomNavigationViewModel()
     var body: some Scene {
         WindowGroup {
-            AppView()
+            AppView().environmentObject(bottomNavigationViewModel)
 //            ContentView()
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+

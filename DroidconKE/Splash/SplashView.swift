@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct SplashView: View {
+    @Environment(\.colorScheme) var colorScheme
     var body: some View {
         // Add your splash screen content here
         VStack {
-                    Spacer()
-            Image("SplashImage").frame(height: 495).padding(8)
+                       Spacer()
+            if colorScheme == .dark{
+                Image("SplashImageDark")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 276.12, height: 494.4)
+                
+            } else{
+                Image("SplashImage")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                .frame(width: 276.12, height: 494.4)}
     }
     }
 }
