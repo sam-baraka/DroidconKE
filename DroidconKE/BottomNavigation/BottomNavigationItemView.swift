@@ -31,13 +31,13 @@ struct BottomNavigationItemView: View {
                 
                     .frame(width: 20, height: 20)
                 .foregroundColor(Color(hex: 0x000CEB))
-                    Text(label).font(.system(size: 10)).foregroundColor(.secondaryColor)
+                    Text(label).font(.system(size: 10)).foregroundColor(.gray)
                 }
         } else {
             VStack{ Image(imageString)
                     .resizable()
                     .frame(width: 20, height: 20)
-                Text(label).font(.system(size: 10)).foregroundColor(.black)
+                Text(label).font(.system(size: 10)).foregroundColor(.gray)
             }
         }
          
@@ -49,7 +49,7 @@ struct BottomNavigationItemView_Previews: PreviewProvider {
     static var previews: some View {
         BottomNavigationItemView(
         imageString: "BottomHome",
-        isActive: true,
+        isActive: false,
         label: "Home"
         ).previewLayout(.sizeThatFits)
             .padding()

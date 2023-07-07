@@ -9,10 +9,16 @@ import SwiftUI
 
 struct FeedView: View {
     var body: some View {
-        Text("Feed View")
-    }
-}
-
+           ScrollView {
+               VStack {
+                   ForEach(0..<10) { index in
+                       FeedItemView()
+                           .padding()
+                   }
+               }
+           }
+       }
+   }
 struct FeedView_Previews: PreviewProvider {
     static var previews: some View {
         FeedView()

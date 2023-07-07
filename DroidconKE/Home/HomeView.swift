@@ -12,42 +12,23 @@ struct HomeView: View {
     
     var body: some View {
            NavigationView {
-               VStack (alignment: .leading){
-                   
-                   Text("Welcome to the largest Focussed Android Developer community in Africa")
-                       .multilineTextAlignment(.leading).padding(8)
-                   
-                   Image("HomeBanner")
-                       .resizable()
-                       .aspectRatio(contentMode: .fit)
-                       .padding(10).frame(width: UIScreen.main.bounds.width)
-                   CallForSpeakersView().padding().frame(width: UIScreen.main.bounds.width)
-                   SponsorsView().padding().frame(width: UIScreen.main.bounds.width)
-                   
-                   Spacer()
-               }
-               .toolbar {
-                   ToolbarItem(placement: .navigationBarLeading) {
-                       if colorScheme == .dark {
-                           Image("LogoTextDark").frame(width: 137,height: 25)
-                               .padding()
-                                  } else {
-                                      Image("LogoText").frame(width: 137,height: 25)
-                                          .padding()
-                                  }
-                      
+               ScrollView {
+                   VStack (alignment: .leading){
+                       
+                       Text("Welcome to the largest Focussed Android Developer community in Africa")
+                           .multilineTextAlignment(.leading).padding(8)
+                       
+                       Image("HomeBanner")
+                           .resizable()
+                           .aspectRatio(contentMode: .fit)
+                           .padding(10).frame(width: UIScreen.main.bounds.width)
+                       CallForSpeakersView().padding().frame(width: UIScreen.main.bounds.width)
+                       SponsorsView().padding().frame(width: UIScreen.main.bounds.width)
+                       OrganizedByView().padding().frame(width: UIScreen.main.bounds.width)
+                       
+                       Spacer()
                    }
-                   
-                   ToolbarItem(placement: .navigationBarTrailing) {
-                       Button(action: {
-                           // Perform action for other button
-                       }) {
-                           Circle()
-                               .foregroundColor(Color("AccentColor"))
-                                           .frame(width: 30, height: 30)
-                                           .overlay(Image(systemName: "lock.fill").frame(width: 14,height: 14).foregroundColor(.white)).colorScheme(.light)
-                       }
-                   }
+              
                }
            }
        }

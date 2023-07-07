@@ -10,6 +10,7 @@ import SwiftUI
 struct AppView: View {
     @State private var showSplash = true
     @EnvironmentObject var viewModel: BottomNavigationViewModel
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         
@@ -25,7 +26,7 @@ struct AppView: View {
                     }
             } else {
                 // Add your main content view here
-                VStack {
+                NavigationView{ VStack {
                     switch viewModel.index{
                     case 0:
                         HomeView()
@@ -41,11 +42,34 @@ struct AppView: View {
                     
                     Spacer()
                     BottomNavigationView().frame(height: 50)
-                        .background(Color.white)
-//                        .shadow(color: Color.black.opacity(0.2), radius: 2, x: 0, y: -2)
+                    
+                }     .toolbar {
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        if colorScheme == .dark {
+                            Image("LogoTextDark").frame(width: 137,height: 25)
+                                .padding()
+                                   } else {
+                                       Image("LogoText").frame(width: 137,height: 25)
+                                           .padding()
+                                   }
+                       
+                    }
+                    
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: {
+                            // Perform action for other button
+                        }) {
+                            Circle()
+                                .foregroundColor(Color("AccentColor"))
+                                            .frame(width: 30, height: 30)
+                                            .overlay(Image(systemName: "lock.fill").frame(width: 14,height: 14).foregroundColor(.white)).colorScheme(.light)
+                        }
+                    }
+            }
+                    
                 }
             }
-        }.padding(.bottom, 20).edgesIgnoringSafeArea(.bottom)
+        }
         
     }
 }

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21897BD2A580BED00E7E73F /* FeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21897BC2A580BED00E7E73F /* FeedItemView.swift */; };
+		A21897BE2A580BED00E7E73F /* FeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21897BC2A580BED00E7E73F /* FeedItemView.swift */; };
+		A21897BF2A580BED00E7E73F /* FeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21897BC2A580BED00E7E73F /* FeedItemView.swift */; };
+		A21897C22A580DDE00E7E73F /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21897C12A580DDE00E7E73F /* NetworkImage.swift */; };
+		A21897C32A580DDE00E7E73F /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21897C12A580DDE00E7E73F /* NetworkImage.swift */; };
+		A21897C42A580DDE00E7E73F /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21897C12A580DDE00E7E73F /* NetworkImage.swift */; };
+		A2225D2D2A58056000006DDD /* OrganizedByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2225D2C2A58055F00006DDD /* OrganizedByView.swift */; };
+		A2225D2E2A58056000006DDD /* OrganizedByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2225D2C2A58055F00006DDD /* OrganizedByView.swift */; };
+		A2225D2F2A58056000006DDD /* OrganizedByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2225D2C2A58055F00006DDD /* OrganizedByView.swift */; };
 		A25D45A22A41ABAC00321B63 /* SponsorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D45A12A41ABAC00321B63 /* SponsorsView.swift */; };
 		A2A0FB752A44D0CB004E6AE8 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A0FB742A44D0CB004E6AE8 /* BottomNavigationView.swift */; };
 		A2A0FB762A44D0CB004E6AE8 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A0FB742A44D0CB004E6AE8 /* BottomNavigationView.swift */; };
@@ -72,6 +81,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A21897BC2A580BED00E7E73F /* FeedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemView.swift; sourceTree = "<group>"; };
+		A21897C12A580DDE00E7E73F /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
+		A2225D2C2A58055F00006DDD /* OrganizedByView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizedByView.swift; sourceTree = "<group>"; };
 		A25D45A12A41ABAC00321B63 /* SponsorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorsView.swift; sourceTree = "<group>"; };
 		A2A0FB742A44D0CB004E6AE8 /* BottomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationView.swift; sourceTree = "<group>"; };
 		A2A0FB792A44D164004E6AE8 /* BottomNavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationViewModel.swift; sourceTree = "<group>"; };
@@ -125,6 +137,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A21897BB2A580BCE00E7E73F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A21897BC2A580BED00E7E73F /* FeedItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A21897C02A580DCC00E7E73F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A21897C12A580DDE00E7E73F /* NetworkImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A2A0FB732A44D0A2004E6AE8 /* BottomNavigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +187,7 @@
 		A2C953252A3CC0EF002BD7EE /* DroidconKE */ = {
 			isa = PBXGroup;
 			children = (
+				A21897C02A580DCC00E7E73F /* Views */,
 				A2A0FB732A44D0A2004E6AE8 /* BottomNavigation */,
 				A2D833352A4373F00012F605 /* About */,
 				A2D833342A4373E80012F605 /* Session */,
@@ -214,6 +243,7 @@
 		A2D833332A4373DF0012F605 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				A21897BB2A580BCE00E7E73F /* Views */,
 				A2D8333E2A4374280012F605 /* FeedView.swift */,
 			);
 			path = Feed;
@@ -238,6 +268,7 @@
 		A2EF345B2A40BB5F009FD23A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A2225D2C2A58055F00006DDD /* OrganizedByView.swift */,
 				A2EF345E2A40BBAE009FD23A /* CallForSpeakersView.swift */,
 				A25D45A12A41ABAC00321B63 /* SponsorsView.swift */,
 			);
@@ -398,6 +429,7 @@
 				A2C953302A3CC0F0002BD7EE /* Persistence.swift in Sources */,
 				A2EF345F2A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */,
 				A2C9535F2A3CD704002BD7EE /* SplashViewTest.swift in Sources */,
+				A21897C22A580DDE00E7E73F /* NetworkImage.swift in Sources */,
 				A2D8333B2A43741A0012F605 /* AboutView.swift in Sources */,
 				A2C953332A3CC0F0002BD7EE /* DroidconKE.xcdatamodeld in Sources */,
 				A25D45A22A41ABAC00321B63 /* SponsorsView.swift in Sources */,
@@ -407,8 +439,10 @@
 				A2C953592A3CC8C9002BD7EE /* SplashView.swift in Sources */,
 				A2F3DF732A40602C003F6785 /* HomeView.swift in Sources */,
 				A2EB20242A49F43E00E7CDD7 /* BottomNavigationItemView.swift in Sources */,
+				A21897BD2A580BED00E7E73F /* FeedItemView.swift in Sources */,
 				A2C953292A3CC0EF002BD7EE /* ContentView.swift in Sources */,
 				A2C953272A3CC0EF002BD7EE /* DroidconKEApp.swift in Sources */,
+				A2225D2D2A58056000006DDD /* OrganizedByView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,11 +451,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2EB20252A49F43E00E7CDD7 /* BottomNavigationItemView.swift in Sources */,
+				A21897C32A580DDE00E7E73F /* NetworkImage.swift in Sources */,
 				A2D8333C2A43741A0012F605 /* AboutView.swift in Sources */,
 				A2D833402A4374280012F605 /* FeedView.swift in Sources */,
 				A2D833382A4374080012F605 /* SessionView.swift in Sources */,
 				A2C9535C2A3CD60C002BD7EE /* AppView.swift in Sources */,
+				A2225D2E2A58056000006DDD /* OrganizedByView.swift in Sources */,
 				A2F3DF742A40602C003F6785 /* HomeView.swift in Sources */,
+				A21897BE2A580BED00E7E73F /* FeedItemView.swift in Sources */,
 				A2EF34602A40BBAE009FD23A /* CallForSpeakersView.swift in Sources */,
 				A2C9533D2A3CC0F0002BD7EE /* DroidconKETests.swift in Sources */,
 				A2A0FB762A44D0CB004E6AE8 /* BottomNavigationView.swift in Sources */,
@@ -442,8 +479,11 @@
 				A2C953472A3CC0F0002BD7EE /* DroidconKEUITests.swift in Sources */,
 				A2D833392A4374080012F605 /* SessionView.swift in Sources */,
 				A2D8333D2A43741A0012F605 /* AboutView.swift in Sources */,
+				A2225D2F2A58056000006DDD /* OrganizedByView.swift in Sources */,
 				A2A0FB772A44D0CB004E6AE8 /* BottomNavigationView.swift in Sources */,
 				A2EB20262A49F43E00E7CDD7 /* BottomNavigationItemView.swift in Sources */,
+				A21897C42A580DDE00E7E73F /* NetworkImage.swift in Sources */,
+				A21897BF2A580BED00E7E73F /* FeedItemView.swift in Sources */,
 				A2F3DF7A2A406568003F6785 /* AppColors.swift in Sources */,
 				A2F3DF752A40602C003F6785 /* HomeView.swift in Sources */,
 				A2C9535D2A3CD60C002BD7EE /* AppView.swift in Sources */,
